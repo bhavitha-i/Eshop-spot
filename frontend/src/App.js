@@ -5,8 +5,6 @@ import logo from  './logo.svg';
 import './App.css';
 import { BrowserRouter as Router, Route } from "react-router-dom";
 
-
-
 // Importing components
 
 //Vendor
@@ -67,6 +65,7 @@ function App() {
         <Route path="/vendorview/update" component={VendorUpdate} />
         <Route path="/productsview/update/:id" component={ProductUpdate} /> 
         <Route path="/productsview/:id" component={ProductDetails} /> 
+        
         <Route path="/customerview/profile/:index?"  component={CustomerProfile} />
         <Route path="/customerview/cart"  component={CustomerCart} />
         
