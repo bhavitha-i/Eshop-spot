@@ -72,7 +72,7 @@ console.log(address,"In  checkout")
           <Typography component="h2" variant="h3" align="center" style={styles.HeadingCheckout}>
             Checkout
           </Typography>
-          <Stepper activeStep={activeStep} sx={{ pt: 3, pb: 5 }}>
+          <Stepper activeStep={activeStep} sx={{ pt: 4, pb: 5 }}>
             {steps.map((label) => (
               <Step key={label}>
                 <StepLabel>{label}</StepLabel>
@@ -89,7 +89,7 @@ console.log(address,"In  checkout")
             ) : (
               <React.Fragment>
                 {getStepContent(activeStep)}
-                {      console.log("selected *******Address-----, ",selAddress)}
+                {      console.log("selected ****Address-----, ",selAddress)}
 
               </React.Fragment>
             )}
