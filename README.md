@@ -1,6 +1,6 @@
-# WebApp-Ecommerce
+# Eshop-spot - Ecommerce web application 
 
-Eshop-spot is a web application based on MERN Stack.
+Eshop-spot is a web application based on MERN Stack. It's github Link : https://github.com/bhavitha-i/Eshop-spot
 
 ## Installing
 
