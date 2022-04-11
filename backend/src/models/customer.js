@@ -77,7 +77,7 @@ const customerSchema = new mongoose.Schema({
     currency:{
         type: mongoose.Schema.Types.ObjectId,
         ref:'Currency',
-        default:'624f77be6467c03dbf0e66eb'
+        default:'624f77be6467c03dbf0e66ec'
     },
 
 },{
