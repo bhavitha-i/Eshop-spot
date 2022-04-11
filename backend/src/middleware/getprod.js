@@ -6,13 +6,13 @@ const Product = require('../models/product')
 //On order product quantity update, make cart isActive false, add new cart
 module.exports = async function product(_id)
 {
-    console.log("__ prod Detialslll ")
+    console.log("__ prod Detials ")
  
     try{
         const p = await Product.findById({_id})
-        console.log("******")
+        console.log("****")
         console.log(p)
-        console.log("******")
+        console.log("****")
         return p
         
     
